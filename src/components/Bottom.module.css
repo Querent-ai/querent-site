@@ -1,0 +1,163 @@
+.base {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+}
+.copyright2022,
+.line {
+  position: relative;
+  z-index: 1;
+}
+.line {
+  align-self: stretch;
+  height: 1px;
+  background-color: var(--color-whitesmoke);
+  mix-blend-mode: normal;
+}
+.copyright2022 {
+  letter-spacing: 0.2px;
+}
+.termsAndServices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.termsOfService {
+  position: relative;
+  letter-spacing: 0.2px;
+  z-index: 1;
+}
+.gitHubLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.cookies,
+.privacyPolicy {
+  position: relative;
+  letter-spacing: 0.2px;
+  z-index: 1;
+}
+.footerContent,
+.termsSection {
+  display: flex;
+  align-items: flex-start;
+}
+.termsSection {
+  width: 187px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footerContent {
+  height: 21px;
+  width: 363px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.discordIcon,
+.githubIcon,
+.linkedinIcon {
+  position: absolute;
+  top: 1px;
+  left: -0.3px;
+  width: 22.5px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+.discordIcon,
+.githubIcon {
+  top: 0;
+  left: 37.2px;
+  height: 24.8px;
+}
+.discordIcon {
+  top: 1px;
+  left: 74.7px;
+  height: 24px;
+  display: none;
+}
+.socialMediaLinks {
+  height: 25px;
+  width: 60px;
+  position: relative;
+}
+.bottom,
+.greyBackground,
+.privacyPolicyLink,
+.productText {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.privacyPolicyLink {
+  align-items: flex-end;
+  gap: 0 43px;
+}
+.bottom,
+.greyBackground,
+.productText {
+  box-sizing: border-box;
+}
+.productText {
+  align-items: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 77px;
+}
+.bottom,
+.greyBackground {
+  align-items: flex-start;
+  padding: 0 var(--padding-111xl) 0 0;
+}
+.bottom {
+  align-self: stretch;
+  background-color: var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-20xl);
+  gap: 39px 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1300px) {
+  .greyBackground {
+    padding-right: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .productText {
+    flex-wrap: wrap;
+    gap: 0 77px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .privacyPolicyLink {
+    flex-wrap: wrap;
+    gap: 0 43px;
+  }
+  .productText {
+    gap: 0 77px;
+  }
+  .greyBackground {
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .bottom {
+    gap: 39px 0;
+  }
+}
