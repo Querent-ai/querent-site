@@ -1,0 +1,143 @@
+.base,
+.logoIcon {
+  position: relative;
+}
+.base {
+  height: 296px;
+  width: 1350px;
+  background: linear-gradient(180deg, #162d73, #000);
+  display: none;
+  max-width: 100%;
+}
+.logoIcon {
+  width: 203px;
+  height: 39px;
+  object-fit: cover;
+  z-index: 1;
+}
+.footerText {
+  width: 434.1px;
+  height: 43px;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.contactEmail,
+.footerText,
+.icMailIcon {
+  position: relative;
+  z-index: 1;
+}
+.icMailIcon {
+  height: 24px;
+  width: 22.5px;
+  object-fit: cover;
+}
+.contactEmail {
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.icMailParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 1px;
+}
+.contactemail,
+.contactemailWrapper,
+.logoInstance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactemail {
+  flex-direction: column;
+  gap: 19px 0;
+}
+.contactemailWrapper,
+.logoInstance {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.logoInstance {
+  flex-direction: column;
+  padding: 0 var(--padding-15xl) 0 0;
+  gap: 5px 0;
+  font-size: var(--font-size-sm);
+}
+.product {
+  position: relative;
+  z-index: 1;
+}
+.productWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+}
+.docs {
+  cursor: pointer;
+}
+.company,
+.docs {
+  position: relative;
+  z-index: 1;
+}
+.docsCompanyFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.baseParent,
+.docsCompanyFrameWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.docsCompanyFrameWrapper {
+  width: 273px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+}
+.baseParent {
+  align-self: stretch;
+  background: linear-gradient(180deg, #162d73, #000);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-74xl) var(--padding-127xl) var(--padding-54xl)
+    var(--padding-113xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1300px) {
+  .baseParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .baseParent {
+    padding-left: var(--padding-47xl);
+    padding-right: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .baseParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

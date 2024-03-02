@@ -1,9 +1,0 @@
-<!-- Mobile -->
-<div
-  class={`absolute bottom-0 w-full bg-[url(/src/lib/assets/2.svg)] bg-no-repeat sm:right-[10%] sm:h-[180px] sm:bg-right-bottom md:h-[200px] lg:hidden vertical-lg:relative vertical-lg:block`}
-/>
-
-<!-- Desktop -->
-<div
-  class="relative z-10 h-full w-full bg-[url(/src/lib/assets/2.svg)] bg-left-bottom bg-no-repeat sm:hidden lg:block vertical-lg:hidden"
-/>

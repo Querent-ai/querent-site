@@ -1,0 +1,105 @@
+.features {
+  margin: 0;
+  color: var(--color-white);
+}
+.api,
+.pricing,
+.useCases {
+  margin: 0;
+}
+.salesSoftwareFeatuContainer {
+  width: 71px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 34px;
+  display: none;
+}
+.caseStudies,
+.community,
+.whitePapers {
+  margin: 0;
+}
+.partnerProgramGetContainer {
+  width: 89px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 34px;
+  display: none;
+}
+.about,
+.getOurNewsletter {
+  margin: 0;
+}
+.contactSupport {
+  margin: 0;
+  color: var(--color-gray);
+}
+.aboutPricingJobsContainer {
+  width: 124px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 34px;
+  display: none;
+  color: var(--color-white);
+}
+.div {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 31.55px);
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.icCallIcon,
+.phoneChild {
+  position: absolute;
+  overflow: hidden;
+}
+.icCallIcon {
+  height: 100%;
+  width: 18.89%;
+  top: 0;
+  right: 81.11%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.phoneChild {
+  top: -45px;
+  left: 48px;
+  width: 100px;
+  height: 100px;
+}
+.phone {
+  width: 119.1px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  color: var(--color-white);
+}
+.desktopLandingOriginal,
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  font-family: var(--font-manrope);
+}
+.desktopLandingOriginal {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  align-items: center;
+  letter-spacing: normal;
+}

@@ -1,0 +1,54 @@
+import React, { useState } from 'react';
+import { collection, addDoc } from 'firebase/firestore';
+import { db } from './firebase-config';
+import styles from './CTA.module.css';
+
+const CTA = () => {
+  const [email, setEmail] = useState('');
+
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
+    e.preventDefault(); // Prevent the default form submit action
+    try {
+      await addDoc(collection(db, 'emails'), { email });
+      alert('Email submitted successfully!');
+      setEmail(''); // Clear the input field after submission
+    } catch (error) {
+      console.error('Error adding document: ', error);
+      alert('Failed to submit email.');
+    }
+  };
+
+  return (
+    <section className={styles.cta} data-scroll-to="cTA">
+      <div className={styles.cTAText}>
+        <h1 className={styles.ctaTagline}>Ready to see what Querent can do?</h1>
+        <div className={styles.ctaText}>
+          Sign up to learn more about our innovative framework.
+        </div>
+        <form onSubmit={handleSubmit} className={styles.formField}>
+          <label className={styles.teamTag}>
+            <div className={styles.enterYourEmail}>Enter your email</div>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className={styles.emailInput} // Add CSS for this class as needed
+              required
+            />
+          </label>
+          <button type="submit" className={styles.signUp}>Sign Up</button>
+        </form>
+      </div>
+      <div className={styles.footerFrame}>
+        <img
+          className={styles.ctaImageIcon}
+          loading="lazy"
+          alt=""
+          src="/cta-image@2x.png"
+        />
+      </div>
+    </section>
+  );
+};
+
+export default CTA;

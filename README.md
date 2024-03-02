@@ -1,27 +1,10 @@
-# Frequency.xyz Website
 
-## Developing
+  # Querent Webpage
 
-Once you've created a project and installed dependencies with `npm install`, start a development server:
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-### Tools
-
-- Node 20
-- Svelte & SvelteKit 4
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm start` to view project in browser
+  
