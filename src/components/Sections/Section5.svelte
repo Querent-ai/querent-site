@@ -1,6 +1,5 @@
 <script lang="ts">
   import Founders from '../Founders.svelte';
-  import SectionNumber from '../SectionNumber.svelte';
   import SectionParagraph from '../SectionParagraph.svelte';
   import SlideIn from '../SlideIn.svelte';
   import Section5Wave from './Section5Wave.svelte';
@@ -23,25 +22,19 @@
   >
     <section class="relative flex flex-col gap-6 sm:max-w-[800px] lg:max-w-[640px] lg:pb-[80px] lg:pr-[80px]">
       <SlideIn>
-        <h2 class="title-75 text-yellow lg:max-w-[600px]">The Core of Our Technology</h2>
+        <h2 class="title-75 text-yellow lg:max-w-[600px]">The Pillars of Our Technology</h2>
       </SlideIn>
       <SectionParagraph classes="md:pr-[140px] lg:px-0 text-cream">
-        The creators of Frequency are at the forefront of innovation. They've created the Decentralized Social
-        Networking Protocol (DSNP), an open-source solution that establishes a shared social graph independent of
-        specific applications or centralized platforms.
+        Querent AI Platform stands as a testament to visionary innovation, crafted by pioneers at the forefront of technological advancement. Rooted in a deep commitment to empowerment through technology, the creators of Querent have forged groundbreaking solutions that redefine the landscape of data intelligence.
       </SectionParagraph>
-      <a href="https://docs.frequency.xyz/" target="_blank"
+      <a href="https://docs.querent.xyz/" target="_blank"
         ><button
           class="max-w-[200px] border-2 border-cream px-10 py-3 text-xs font-semibold text-cream transition-colors duration-500 hover:bg-cream hover:bg-opacity-30"
           >Learn More</button
         ></a
       >
-      <SectionNumber classes="text-cream sm:hidden lg:block mr-[70px] bottom-4 right-0 vertical-lg:hidden"
-        >.05</SectionNumber
-      >
     </section>
 
     <Founders />
   </div>
-  <SectionNumber classes="text-cream bottom-4 lg:hidden vertical-lg:block">.05</SectionNumber>
 </SectionWrapper>
