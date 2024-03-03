@@ -23,7 +23,7 @@ const OurTeam: FunctionComponent = () => {
           />
           <div className={styles.puneet}>
             <p className={styles.puneetSaraswat}>
-              <b>Puneet Saraswat</b>
+              <b><a href="https://www.linkedin.com/in/psaraswat10074" target="_blank">Puneet Saraswat</a></b>
             </p>
             <p className={styles.founderCeo}>{`Founder & CEO`}</p>
           </div>
@@ -32,7 +32,7 @@ const OurTeam: FunctionComponent = () => {
           <img className={styles.imageIcon1} alt="" src="/image-1@2x.png" />
           <div className={styles.audrey}>
             <p className={styles.audreyCisneros}>
-              <b>{`Audrey Cisneros `}</b>
+              <b><a href="https://linkedin.com/in/audrey-cisneros" target="_blank">{`Audrey Cisneros `}</a></b>
             </p>
             <p className={styles.coo}>COO</p>
           </div>
@@ -41,7 +41,7 @@ const OurTeam: FunctionComponent = () => {
           <img className={styles.imageIcon2} alt="" src="/image-2@2x.png" />
           <div className={styles.nishant}>
             <p className={styles.nishantGupta}>
-              <b>{`Nishant Gupta `}</b>
+              <b><a href="https://www.linkedin.com/in/nishant-gupta-data" target="_blank">{`Nishant Gupta `}</a></b>
             </p>
             <p className={styles.aiArchitect}>AI Architect</p>
           </div>
@@ -50,7 +50,7 @@ const OurTeam: FunctionComponent = () => {
           <img className={styles.imageIcon3} alt="" src="/image-3@2x.png" />
           <div className={styles.ansh}>
             <p className={styles.anshJoshi}>
-              <b>{`Ansh Joshi `}</b>
+              <b><a href="https://www.linkedin.com/in/ansh-joshi-626bb8184" target="_blank">{`Ansh Joshi `}</a></b>
             </p>
             <p className={styles.fullStackDeveloper}>Full Stack Developer</p>
           </div>
