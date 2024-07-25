@@ -12,7 +12,7 @@ const Topbar: FunctionComponent = () => {
   }, []);
 
   const onDocumentationTextClick = useCallback(() => {
-    window.open("http://docs.querent.xyz/docs/overview/introduction");
+    window.open("http://docs.querent.xyz/docs/overview");
   }, []);
 
   const onCompanyText1Click = useCallback(() => {

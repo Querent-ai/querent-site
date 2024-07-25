@@ -3,7 +3,7 @@ import styles from "./FrameComponent.module.css";
 
 const FrameComponent: FunctionComponent = () => {
   const onDocsTextClick = useCallback(() => {
-    window.open("http://docs.querent.xyz/docs/overview/introduction");
+    window.open("http://docs.querent.xyz/docs/overview");
   }, []);
 
   return (
